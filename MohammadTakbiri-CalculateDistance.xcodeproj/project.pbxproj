@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2323FE249248C200929005 /* DownloadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2323FD249248C200929005 /* DownloadFile.swift */; };
+		0A232400249251A000929005 /* CustomersFileAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2323FF249251A000929005 /* CustomersFileAddress.swift */; };
+		0A2324022492566600929005 /* ConvertToJsonArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2324012492566600929005 /* ConvertToJsonArray.swift */; };
+		0A2324042492667600929005 /* FilterCustomers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2324032492667600929005 /* FilterCustomers.swift */; };
+		0A23240624926B2600929005 /* Customers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A23240524926B2600929005 /* Customers.swift */; };
+		0A23240924926E9E00929005 /* GetCustomersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A23240824926E9E00929005 /* GetCustomersResponse.swift */; };
+		0A23240B24926ECF00929005 /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A23240A24926ECF00929005 /* NetworkingError.swift */; };
 		0A3E95D124923DBC005F5FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E95D024923DBC005F5FE8 /* AppDelegate.swift */; };
-		0A3E95D324923DBC005F5FE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E95D224923DBC005F5FE8 /* SceneDelegate.swift */; };
-		0A3E95D524923DBC005F5FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E95D424923DBC005F5FE8 /* ViewController.swift */; };
 		0A3E95D824923DBC005F5FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E95D624923DBC005F5FE8 /* Main.storyboard */; };
 		0A3E95DA24923DBD005F5FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E95D924923DBD005F5FE8 /* Assets.xcassets */; };
 		0A3E95DD24923DBD005F5FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E95DB24923DBD005F5FE8 /* LaunchScreen.storyboard */; };
+		0A3E95EE249244BD005F5FE8 /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E95ED249244BD005F5FE8 /* FinderViewController.swift */; };
+		0A3E95F024924514005F5FE8 /* FinderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E95EF24924514005F5FE8 /* FinderTableViewCell.swift */; };
+		3A8111B1F692CDEAE306AF3E /* Pods_MohammadTakbiri_CalculateDistance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D004244802FA8B21AF8AC4F /* Pods_MohammadTakbiri_CalculateDistance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2323FD249248C200929005 /* DownloadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFile.swift; sourceTree = "<group>"; };
+		0A2323FF249251A000929005 /* CustomersFileAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersFileAddress.swift; sourceTree = "<group>"; };
+		0A2324012492566600929005 /* ConvertToJsonArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertToJsonArray.swift; sourceTree = "<group>"; };
+		0A2324032492667600929005 /* FilterCustomers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCustomers.swift; sourceTree = "<group>"; };
+		0A23240524926B2600929005 /* Customers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customers.swift; sourceTree = "<group>"; };
+		0A23240824926E9E00929005 /* GetCustomersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomersResponse.swift; sourceTree = "<group>"; };
+		0A23240A24926ECF00929005 /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
 		0A3E95CD24923DBC005F5FE8 /* MohammadTakbiri-CalculateDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MohammadTakbiri-CalculateDistance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3E95D024923DBC005F5FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A3E95D224923DBC005F5FE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0A3E95D424923DBC005F5FE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A3E95D724923DBC005F5FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A3E95D924923DBD005F5FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A3E95DC24923DBD005F5FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A3E95DE24923DBD005F5FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3E95ED249244BD005F5FE8 /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
+		0A3E95EF24924514005F5FE8 /* FinderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderTableViewCell.swift; sourceTree = "<group>"; };
+		0E14268FFC2480156B977674 /* Pods-MohammadTakbiri-CalculateDistance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MohammadTakbiri-CalculateDistance.release.xcconfig"; path = "Target Support Files/Pods-MohammadTakbiri-CalculateDistance/Pods-MohammadTakbiri-CalculateDistance.release.xcconfig"; sourceTree = "<group>"; };
+		7D004244802FA8B21AF8AC4F /* Pods_MohammadTakbiri_CalculateDistance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MohammadTakbiri_CalculateDistance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB65AF483B953C4C67D76A35 /* Pods-MohammadTakbiri-CalculateDistance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MohammadTakbiri-CalculateDistance.debug.xcconfig"; path = "Target Support Files/Pods-MohammadTakbiri-CalculateDistance/Pods-MohammadTakbiri-CalculateDistance.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8111B1F692CDEAE306AF3E /* Pods_MohammadTakbiri_CalculateDistance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A23240724926E8A00929005 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				0A23240824926E9E00929005 /* GetCustomersResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		0A3E95C424923DBC005F5FE8 = {
 			isa = PBXGroup;
 			children = (
 				0A3E95CF24923DBC005F5FE8 /* MohammadTakbiri-CalculateDistance */,
 				0A3E95CE24923DBC005F5FE8 /* Products */,
+				4A7693C5289BFED5476FD2C4 /* Pods */,
+				F3E0878E20886558485B2851 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,111 @@
 		0A3E95CF24923DBC005F5FE8 /* MohammadTakbiri-CalculateDistance */ = {
 			isa = PBXGroup;
 			children = (
-				0A3E95D024923DBC005F5FE8 /* AppDelegate.swift */,
-				0A3E95D224923DBC005F5FE8 /* SceneDelegate.swift */,
-				0A3E95D424923DBC005F5FE8 /* ViewController.swift */,
-				0A3E95D624923DBC005F5FE8 /* Main.storyboard */,
-				0A3E95D924923DBD005F5FE8 /* Assets.xcassets */,
-				0A3E95DB24923DBD005F5FE8 /* LaunchScreen.storyboard */,
-				0A3E95DE24923DBD005F5FE8 /* Info.plist */,
+				0A3E95E424923DD7005F5FE8 /* Global */,
+				0A3E95E924923E46005F5FE8 /* CalculateDistance */,
 			);
 			path = "MohammadTakbiri-CalculateDistance";
+			sourceTree = "<group>";
+		};
+		0A3E95E424923DD7005F5FE8 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E95E824923E2F005F5FE8 /* Model */,
+				0A3E95E524923E00005F5FE8 /* View */,
+				0A3E95E624923E07005F5FE8 /* Controller */,
+				0A3E95E724923E26005F5FE8 /* Source */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		0A3E95E524923E00005F5FE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E95D924923DBD005F5FE8 /* Assets.xcassets */,
+				0A3E95DB24923DBD005F5FE8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3E95E624923E07005F5FE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E95D024923DBC005F5FE8 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A3E95E724923E26005F5FE8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E95DE24923DBD005F5FE8 /* Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0A3E95E824923E2F005F5FE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A23240A24926ECF00929005 /* NetworkingError.swift */,
+				0A2323FD249248C200929005 /* DownloadFile.swift */,
+				0A2323FF249251A000929005 /* CustomersFileAddress.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3E95E924923E46005F5FE8 /* CalculateDistance */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E95EB24923E58005F5FE8 /* Model */,
+				0A3E95EA24923E51005F5FE8 /* View */,
+				0A3E95EC24923E5D005F5FE8 /* Controller */,
+			);
+			path = CalculateDistance;
+			sourceTree = "<group>";
+		};
+		0A3E95EA24923E51005F5FE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E95D624923DBC005F5FE8 /* Main.storyboard */,
+				0A3E95EF24924514005F5FE8 /* FinderTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A3E95EB24923E58005F5FE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A23240724926E8A00929005 /* Responses */,
+				0A23240524926B2600929005 /* Customers.swift */,
+				0A2324012492566600929005 /* ConvertToJsonArray.swift */,
+				0A2324032492667600929005 /* FilterCustomers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A3E95EC24923E5D005F5FE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A3E95ED249244BD005F5FE8 /* FinderViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A7693C5289BFED5476FD2C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB65AF483B953C4C67D76A35 /* Pods-MohammadTakbiri-CalculateDistance.debug.xcconfig */,
+				0E14268FFC2480156B977674 /* Pods-MohammadTakbiri-CalculateDistance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3E0878E20886558485B2851 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D004244802FA8B21AF8AC4F /* Pods_MohammadTakbiri_CalculateDistance.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A3E95E124923DBD005F5FE8 /* Build configuration list for PBXNativeTarget "MohammadTakbiri-CalculateDistance" */;
 			buildPhases = (
+				6350654ABDF07C2534333AB4 /* [CP] Check Pods Manifest.lock */,
 				0A3E95C924923DBC005F5FE8 /* Sources */,
 				0A3E95CA24923DBC005F5FE8 /* Frameworks */,
 				0A3E95CB24923DBC005F5FE8 /* Resources */,
+				E4443D5B77E9808EC870A0C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +260,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6350654ABDF07C2534333AB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MohammadTakbiri-CalculateDistance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4443D5B77E9808EC870A0C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MohammadTakbiri-CalculateDistance/Pods-MohammadTakbiri-CalculateDistance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MohammadTakbiri-CalculateDistance/Pods-MohammadTakbiri-CalculateDistance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MohammadTakbiri-CalculateDistance/Pods-MohammadTakbiri-CalculateDistance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A3E95C924923DBC005F5FE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3E95D524923DBC005F5FE8 /* ViewController.swift in Sources */,
+				0A2324022492566600929005 /* ConvertToJsonArray.swift in Sources */,
+				0A2324042492667600929005 /* FilterCustomers.swift in Sources */,
+				0A23240924926E9E00929005 /* GetCustomersResponse.swift in Sources */,
+				0A3E95EE249244BD005F5FE8 /* FinderViewController.swift in Sources */,
+				0A23240B24926ECF00929005 /* NetworkingError.swift in Sources */,
+				0A2323FE249248C200929005 /* DownloadFile.swift in Sources */,
+				0A23240624926B2600929005 /* Customers.swift in Sources */,
+				0A3E95F024924514005F5FE8 /* FinderTableViewCell.swift in Sources */,
+				0A232400249251A000929005 /* CustomersFileAddress.swift in Sources */,
 				0A3E95D124923DBC005F5FE8 /* AppDelegate.swift in Sources */,
-				0A3E95D324923DBC005F5FE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +458,12 @@
 		};
 		0A3E95E224923DBD005F5FE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB65AF483B953C4C67D76A35 /* Pods-MohammadTakbiri-CalculateDistance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXU577K7BA;
-				INFOPLIST_FILE = "MohammadTakbiri-CalculateDistance/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MohammadTakbiri-CalculateDistance/Global/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +477,12 @@
 		};
 		0A3E95E324923DBD005F5FE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E14268FFC2480156B977674 /* Pods-MohammadTakbiri-CalculateDistance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXU577K7BA;
-				INFOPLIST_FILE = "MohammadTakbiri-CalculateDistance/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MohammadTakbiri-CalculateDistance/Global/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
