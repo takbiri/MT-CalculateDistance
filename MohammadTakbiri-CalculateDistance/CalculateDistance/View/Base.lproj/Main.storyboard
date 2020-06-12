@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,7 +11,7 @@
         <!--Finder View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="FinderViewController" id="BYZ-38-t0r" customClass="FinderViewController" customModule="MohammadTakbiri_CalculateDistance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FinderViewController" id="BYZ-38-t0r" customClass="FinderViewController" customModule="MT_CalculateDistance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,7 +40,7 @@
                                 <rect key="frame" x="20" y="369" width="374" height="493"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="65" id="rQm-K8-1xc" customClass="FinderTableViewCell" customModule="MohammadTakbiri_CalculateDistance" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="65" id="rQm-K8-1xc" customClass="FinderTableViewCell" customModule="MT_CalculateDistance" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="374" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rQm-K8-1xc" id="ZX4-hV-UI6">
@@ -50,14 +51,17 @@
                                                     <rect key="frame" x="20" y="11" width="334" height="38"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FPR-v7-xCo">
-                                                            <rect key="frame" x="0.0" y="0.0" width="334" height="18.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="334" height="21.5"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="21.5" id="TlR-DW-sUf"/>
+                                                            </constraints>
                                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserID: 12354" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8e-wI-B1c">
-                                                            <rect key="frame" x="0.0" y="19.5" width="334" height="18.5"/>
+                                                            <rect key="frame" x="0.0" y="22.5" width="334" height="15.5"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -65,7 +69,6 @@
                                                         </label>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstItem="v8e-wI-B1c" firstAttribute="height" secondItem="FPR-v7-xCo" secondAttribute="height" id="22a-fq-Zgq"/>
                                                         <constraint firstItem="FPR-v7-xCo" firstAttribute="leading" secondItem="6em-dH-Kkn" secondAttribute="leading" id="76e-pu-1ZZ"/>
                                                         <constraint firstItem="FPR-v7-xCo" firstAttribute="top" secondItem="6em-dH-Kkn" secondAttribute="top" id="8iG-pJ-gdm"/>
                                                         <constraint firstAttribute="trailing" secondItem="v8e-wI-B1c" secondAttribute="trailing" id="E4j-mX-T0s"/>
