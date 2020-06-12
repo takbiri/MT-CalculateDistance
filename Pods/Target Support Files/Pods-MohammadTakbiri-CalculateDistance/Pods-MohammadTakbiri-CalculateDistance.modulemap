@@ -1,0 +1,6 @@
+framework module Pods_MohammadTakbiri_CalculateDistance {
+  umbrella header "Pods-MohammadTakbiri-CalculateDistance-umbrella.h"
+
+  export *
+  module * { export * }
+}

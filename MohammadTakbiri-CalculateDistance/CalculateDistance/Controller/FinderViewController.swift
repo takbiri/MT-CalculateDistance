@@ -27,7 +27,7 @@ class FinderViewController: UIViewController {
         }
         
     }
-
+    
 }
 
 extension FinderViewController: UITableViewDelegate, UITableViewDataSource,UITextFieldDelegate {
@@ -58,6 +58,7 @@ extension FinderViewController: UITableViewDelegate, UITableViewDataSource,UITex
         let arc = Double(textField.text!)
         FilterCustomers.filterCustomersWith(customers: self.sourceCustomers, arc: arc ?? 0) { (filteredCustomers) in
             self.filteredCustomers = filteredCustomers // update filteredCustomers array and then update our UITableView
+            print(self.filteredCustomers)
             self.tableView.reloadData()
         }
         
