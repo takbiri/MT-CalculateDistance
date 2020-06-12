@@ -8,15 +8,13 @@
 
 import Foundation
 
-class CustomersFileAddress {
+class CustomersFileAddress { // This class return address of the file that we saved before or should be saved there.
     
     static func getAddress() -> URL {
         
         let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
         let fileURL = documentsURL.appendingPathComponent("customers.txt")
-        var fileAddress = fileURL.absoluteString
-        fileAddress = fileAddress.replacingOccurrences(of: "file://", with: "")
-        return URL(string: fileAddress)!
+        return fileURL
         
     }
     

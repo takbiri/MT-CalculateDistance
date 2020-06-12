@@ -10,14 +10,13 @@ import Foundation
 
 class ConvertToJsonArray {
     
-    
+    // convert array of strings to an json array
     static func convertStringArrayToJsonArray(stringArray: [String], completion: @escaping (GetCustomersResponse)->Void) {
         
         let jsonArray = NSMutableArray()
         stringArray.forEach { (string) in
             if let data = string.data(using: .utf8) {
                 let json = try! JSONSerialization.jsonObject(with: data, options: .allowFragments)
-                print("json is \(json)")
                 jsonArray.add(json)
             }
         }

@@ -16,10 +16,11 @@ class DownloadFile {
     
     static func downloadFileWithURL(url: URL, completion: @escaping (String)->Void){
         
+        
         SVProgressHUD.setDefaultMaskType(.clear)
         SVProgressHUD.show()
         
-        
+        // create an destination object that have address for saving files that will be download.
         let destination: DownloadRequest.Destination = { _, _ in
             let fileURL = CustomersFileAddress.getAddress()
             return (fileURL, [.removePreviousFile, .createIntermediateDirectories])
@@ -27,10 +28,10 @@ class DownloadFile {
         
         
         
-        AF.download(url, to: destination).responseJSON { (response) in
+        AF.download(url, to: destination).response { (response) in
             
             SVProgressHUD.dismiss()
-            
+            print("response is \(response)")
             guard let fileAddress = response.fileURL?.path else {return}
             completion(fileAddress)
             

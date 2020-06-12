@@ -16,7 +16,7 @@ class FinderTableViewCell: UITableViewCell {
     
     func configureCell(customer: Customers) {
         
-        self.userIdLabel.text = "\(customer.user_id)"
+        self.userIdLabel.text = "UserID: \(customer.user_id)"
         self.userNameLabel.text = customer.name
         
         self.selectionStyle = .none

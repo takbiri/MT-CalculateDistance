@@ -8,12 +8,12 @@
 
 import Foundation
 
-struct GetCustomersResponse {
+struct GetCustomersResponse { // handle received file json.
     
     let customers: [Customers]
     
     init(json: Any) throws {
-        guard let array = json as? [[String: Any]] else { throw NetworkingError.someError }
+        guard let array = json as? [[String: Any]] else { throw NetworkingError.someError } // if json have any problem, we whould handle an error.
         
         var customers = [Customers]()
         for item in array {
