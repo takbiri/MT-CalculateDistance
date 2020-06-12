@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1608B4249396C500632F1C /* MT_CalculateDistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1608B3249396C500632F1C /* MT_CalculateDistanceTests.swift */; };
 		0A2323FE249248C200929005 /* DownloadFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2323FD249248C200929005 /* DownloadFile.swift */; };
 		0A232400249251A000929005 /* CustomersFileAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2323FF249251A000929005 /* CustomersFileAddress.swift */; };
 		0A2324022492566600929005 /* ConvertToJsonArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2324012492566600929005 /* ConvertToJsonArray.swift */; };
@@ -26,7 +27,20 @@
 		3A8111B1F692CDEAE306AF3E /* Pods_MohammadTakbiri_CalculateDistance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D004244802FA8B21AF8AC4F /* Pods_MohammadTakbiri_CalculateDistance.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0A1608B6249396C500632F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A3E95C524923DBC005F5FE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3E95CC24923DBC005F5FE8;
+			remoteInfo = "MohammadTakbiri-CalculateDistance";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0A1608B1249396C500632F1C /* MT-CalculateDistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MT-CalculateDistanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A1608B3249396C500632F1C /* MT_CalculateDistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MT_CalculateDistanceTests.swift; sourceTree = "<group>"; };
+		0A1608B5249396C500632F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2323FD249248C200929005 /* DownloadFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFile.swift; sourceTree = "<group>"; };
 		0A2323FF249251A000929005 /* CustomersFileAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersFileAddress.swift; sourceTree = "<group>"; };
 		0A2324012492566600929005 /* ConvertToJsonArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertToJsonArray.swift; sourceTree = "<group>"; };
@@ -51,6 +65,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A1608AE249396C500632F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A3E95CA24923DBC005F5FE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1608B2249396C500632F1C /* MT-CalculateDistanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1608B3249396C500632F1C /* MT_CalculateDistanceTests.swift */,
+				0A1608B5249396C500632F1C /* Info.plist */,
+			);
+			path = "MT-CalculateDistanceTests";
+			sourceTree = "<group>";
+		};
 		0A23240724926E8A00929005 /* Responses */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3E95CF24923DBC005F5FE8 /* MohammadTakbiri-CalculateDistance */,
+				0A1608B2249396C500632F1C /* MT-CalculateDistanceTests */,
 				0A3E95CE24923DBC005F5FE8 /* Products */,
 				4A7693C5289BFED5476FD2C4 /* Pods */,
 				F3E0878E20886558485B2851 /* Frameworks */,
@@ -84,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3E95CD24923DBC005F5FE8 /* MT-CalculateDistance.app */,
+				0A1608B1249396C500632F1C /* MT-CalculateDistanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +236,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A1608B0249396C500632F1C /* MT-CalculateDistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A1608BA249396C500632F1C /* Build configuration list for PBXNativeTarget "MT-CalculateDistanceTests" */;
+			buildPhases = (
+				0A1608AD249396C500632F1C /* Sources */,
+				0A1608AE249396C500632F1C /* Frameworks */,
+				0A1608AF249396C500632F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A1608B7249396C500632F1C /* PBXTargetDependency */,
+			);
+			name = "MT-CalculateDistanceTests";
+			productName = "MT-CalculateDistanceTests";
+			productReference = 0A1608B1249396C500632F1C /* MT-CalculateDistanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		0A3E95CC24923DBC005F5FE8 /* MohammadTakbiri-CalculateDistance */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A3E95E124923DBD005F5FE8 /* Build configuration list for PBXNativeTarget "MohammadTakbiri-CalculateDistance" */;
@@ -233,6 +283,10 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Mohammad Takbiri";
 				TargetAttributes = {
+					0A1608B0249396C500632F1C = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 0A3E95CC24923DBC005F5FE8;
+					};
 					0A3E95CC24923DBC005F5FE8 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -252,11 +306,19 @@
 			projectRoot = "";
 			targets = (
 				0A3E95CC24923DBC005F5FE8 /* MohammadTakbiri-CalculateDistance */,
+				0A1608B0249396C500632F1C /* MT-CalculateDistanceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A1608AF249396C500632F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A3E95CB24923DBC005F5FE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +374,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A1608AD249396C500632F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1608B4249396C500632F1C /* MT_CalculateDistanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A3E95C924923DBC005F5FE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +404,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0A1608B7249396C500632F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A3E95CC24923DBC005F5FE8 /* MohammadTakbiri-CalculateDistance */;
+			targetProxy = 0A1608B6249396C500632F1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		0A3E95D624923DBC005F5FE8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -354,6 +432,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0A1608B8249396C500632F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXU577K7BA;
+				INFOPLIST_FILE = "MT-CalculateDistanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohammadtakbiri.MT-CalculateDistanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MT-CalculateDistance.app/MT-CalculateDistance";
+			};
+			name = Debug;
+		};
+		0A1608B9249396C500632F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JXU577K7BA;
+				INFOPLIST_FILE = "MT-CalculateDistanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohammadtakbiri.MT-CalculateDistanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MT-CalculateDistance.app/MT-CalculateDistance";
+			};
+			name = Release;
+		};
 		0A3E95DF24923DBD005F5FE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -476,6 +594,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXU577K7BA;
 				INFOPLIST_FILE = "$(SRCROOT)/MohammadTakbiri-CalculateDistance/Global/Source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,6 +614,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JXU577K7BA;
 				INFOPLIST_FILE = "$(SRCROOT)/MohammadTakbiri-CalculateDistance/Global/Source/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -509,6 +629,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A1608BA249396C500632F1C /* Build configuration list for PBXNativeTarget "MT-CalculateDistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A1608B8249396C500632F1C /* Debug */,
+				0A1608B9249396C500632F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0A3E95C824923DBC005F5FE8 /* Build configuration list for PBXProject "MohammadTakbiri-CalculateDistance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

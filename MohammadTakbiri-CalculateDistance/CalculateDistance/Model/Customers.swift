@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Customers {
+struct Customers: Equatable {
     let lat: NSString
     let lng: NSString
     let name: String
